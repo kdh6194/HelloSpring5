@@ -49,10 +49,6 @@ public class HelloSpring5App05 {
     // BeanFactory : DI에 대한 기본적인 기능만 제공
     // ApplicationContext : BeanFactory를 확장해 다양한 기능제공
 
-    // 여기서 작성된 bean05.xml은 이클립스에서 web.xml과 같은 역할을 수행한다.
-    // web.xml은 웹 프로젝트 환경설정 파일에 해당한다. ->
-    // 정확히는 web.xml파일이 웹 브라우저에서 요청 URL을 전달받는 역할
-
 
     public static void main(String[] args) {
         BeanFactory bf = new XmlBeanFactory(
